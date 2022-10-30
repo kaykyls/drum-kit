@@ -1,7 +1,6 @@
 const key = document.querySelectorAll(".key")
 const audio = document.querySelectorAll("audio")
-const keyDisplay = document.querySelectorAll("kbd")
-const keys = ["a", "s", "d", "f", "g", "h", "j", "k", "l"]
+const keys = ["q", "w", "e", "a", "s", "d", "z", "x", "c"]
 
 window.addEventListener("keydown", (event) => {
     if(keys.includes(event.key)){
